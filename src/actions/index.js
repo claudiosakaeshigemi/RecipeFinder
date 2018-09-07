@@ -1,9 +1,5 @@
-
 export const SET_RECIPES ='SET_RECIPES';
 export const FAVORITE_RECIPE ='FAVORITE_RECIPE';
-
-
-
 
 
 export function setRecipes(items){
