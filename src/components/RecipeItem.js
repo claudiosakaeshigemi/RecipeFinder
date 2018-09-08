@@ -23,18 +23,20 @@ class RecipeItem extends Component {
             {
                 this.props.favoriteButton ?
                     this.state.favorited ? 
-                        <div className="star">&#9733; </div>
+                        <div 
+                            className="star">
+                            &#9733; 
+                        </div>
                         :
                         <div 
                             className="star"
                             onClick= { () => this.favorite(recipe)} > 
                             &#9734;
                         </div>
-                        :
-                <div>
-
-                </div>
+                    :    
+                <div>             </div>
             }
+            
                   <div className="recipe-text" >
                     <a href= {recipe.href}>
                     <h4 >{recipe.title }</h4> 
